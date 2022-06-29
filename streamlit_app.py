@@ -1,6 +1,8 @@
 import streamlit
 
 streamlit.title('La Fea Bistro')
+st.image(La Fea Bistro.jpg, width=100)
+st.title("Streamlit Dashboard Demo")
 
 streamlit.header('Dinner Menu')
 
