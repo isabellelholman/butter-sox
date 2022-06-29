@@ -1,6 +1,6 @@
 import streamlit
 
-from Downloads import ('La_Fea_Bistro.jpg')
+from Downloads import 'La_Fea_Bistro.jpg'
 image = Image.open('La_Fea_Bistro.jpg')
 
 st.image(image, caption='La Fea Bistro')
