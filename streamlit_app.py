@@ -1,9 +1,6 @@
 import streamlit
 
-from Downloads import image
-image = Image.open('La_Fea_Bistro.jpg')
-
-st.image(image, caption='La Fea Bistro')
+streamlit.header('LA FEA BISTRO')
 
 streamlit.header('Dinner Menu')
 
