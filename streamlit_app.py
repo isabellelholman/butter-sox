@@ -10,7 +10,7 @@ streamlit.text('🧀 Charcuterie Board 🍓')
 streamlit.subheader('Entrees')
 streamlit.text('🥣 Chefs Choice 👨‍🍳')
 
-streamlit.subheader('Drink Menu')
+streamlit.header('Drink Menu')
 streamlit.text('🍇 Chefs Choice Red Wine')
 streamlit.text('🥂 Chefs Choice White Wine')
 streamlit.text('🍾 Chefs Choice Champagne')
