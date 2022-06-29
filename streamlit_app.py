@@ -1,8 +1,9 @@
 import streamlit
 
-streamlit.title('La Fea Bistro')
-st.image(La_Fea_Bistro.jpg, width=100)
-st.title("Streamlit Dashboard Demo")
+from PIL import Image
+image = Image.open('La_Fea_Bistro.jpg')
+
+st.image(image, caption='La Fea Bistro')
 
 streamlit.header('Dinner Menu')
 
