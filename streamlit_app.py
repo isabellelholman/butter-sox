@@ -31,4 +31,4 @@ streamlit.text(fruityvice_response.json())
 #streamlit.dataframe(fruityvice_normalized)
 
 fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
-streamlit.dataframe(fruityvice)normalized)
+streamlit.dataframe(fruityvice_normalized)
