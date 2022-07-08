@@ -24,5 +24,5 @@ streamlit.header('Fruityvice Fruit Advice!')
 import requests
 
 fruityvice_repsonse = requests.get("https://fruityvice.com/api/fruit/kiwi") 
-fruityvice_normalize = json_normalize(fruityvice_repsonse.json()) 
-streamlit.dataframe(fruityvice_normalize)
+fruityvice_normalized = json_normalize(fruityvice_repsonse.json()) 
+streamlit.dataframe(fruityvice_normalized)
