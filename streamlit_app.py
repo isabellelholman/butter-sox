@@ -20,7 +20,7 @@ streamlit.header('Dessert Menu')
 streamlit.text('🍨 Chefs Choice')
 
 streamlit.header('Fruityvice Fruit Advice!')
-streamlit.header('Fruityvice Fruit Advice!') 
+ 
 import requests
 
 fruityvice_repsonse = requests.get("https://fruityvice.com/api/fruit/kiwi") 
