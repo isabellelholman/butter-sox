@@ -2,7 +2,7 @@ import streamlit
 import requests
 import snowflake.connector
 import pandas 
-import urllib.error import URLError
+from urllib.error import URLError
 
 streamlit.header('LA FEA BISTRO')
 
