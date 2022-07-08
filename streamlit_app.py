@@ -1,5 +1,5 @@
 import streamlit
-
+import snowflake.connector
 streamlit.header('LA FEA BISTRO')
 
 streamlit.header('Dinner Menu')
@@ -36,7 +36,7 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 
 streamlit.dataframe(fruityvice_normalized)
 
-import snowflake.connector
+
 
 
 
